@@ -1,0 +1,11 @@
+.container {
+    @apply flex flex-col gap-4 bg-white p-6 rounded-lg;
+}
+
+.field {
+    @apply flex flex-col gap-2;
+}
+
+.field > label {
+    @apply text-sm font-medium;
+}

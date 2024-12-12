@@ -1,0 +1,11 @@
+.list {
+    @apply flex flex-col gap-6;
+}
+
+.item {
+    @apply flex flex-row gap-2;
+}
+
+.item > *:nth-child(1) {
+    @apply flex-1;
+}
